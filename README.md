@@ -15,13 +15,12 @@ And visit in our browser           :    localhost:8000
 Web Technologies
 
 
-- Front End
+Front End
 
-Html
-Css
+- Html
+- Css
 
+Server
 
-- Server
-
-Docker
-Nginx
+- Docker
+- Nginx
