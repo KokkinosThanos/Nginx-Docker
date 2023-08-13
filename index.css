@@ -1,0 +1,252 @@
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: rgb(48, 44, 42);
+  }
+
+  #wrapper {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  h1 {
+    width: 80%;
+    height: 80px;
+    border-bottom: 0.5px solid #2396ed;
+
+    color: whitesmoke;
+    line-height: 80px;
+    font-family: Tahoma;
+    letter-spacing: 3px;
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+
+    margin: 60px auto 0;
+
+  }
+
+  h2 {
+    width: 70%;
+    border-bottom: 0.5px solid #269539;
+
+    color: whitesmoke;
+    line-height: 60px;
+    font-family: Tahoma;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-size: small;
+
+    text-align: center;
+
+    margin: 60px auto 0;
+    padding-bottom: 60px;
+  }
+
+  main {
+    width: 100%;
+    margin-top: 70px;
+  }
+
+  p {
+    width: 65%;
+
+    color: whitesmoke;
+    line-height: 20px;
+    font-family: Tahoma;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-size: smaller;
+    text-align: center;
+
+    margin: 30px auto 0;
+  }
+
+  footer {
+    width: 100%;
+    margin: 70px auto 40px;
+  }
+
+  .image-area {
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .image {
+    width: 60px;
+    height: 60px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  #image-one {
+    background-image: url("images/docker_logo.png");
+  }
+
+  #image-two {
+    background-image: url("images/nginx_logo.png");
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: rgb(48, 44, 42);
+  }
+
+  #wrapper {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  h1 {
+    width: 480px;
+    height: 90px;
+    border-bottom: 0.5px solid #2396ed;
+
+    color: whitesmoke;
+    line-height: 90px;
+    font-family: Tahoma;
+    letter-spacing: 3px;
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+
+    margin: 60px auto 0;
+
+  }
+
+
+  h2 {
+    width: 410px;
+    border-bottom: 0.5px solid #269539;
+
+    color: whitesmoke;
+    line-height: 60px;
+    font-family: Tahoma;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+
+    margin: 80px auto 0;
+    padding-bottom: 80px;
+
+  }
+
+  main {
+    width: 100%;
+    margin-top: 80px;
+  }
+
+  p {
+    width: 380px;
+
+    color: whitesmoke;
+    line-height: 40px;
+    font-family: Tahoma;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+
+    margin: 40px auto 0;
+  }
+
+
+  footer {
+    width: 100%;
+    margin: 80px auto 50px;
+  }
+
+  .image-area {
+    width: 450px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+  }
+
+  .image {
+    width: 70px;
+    height: 70px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  #image-one {
+    background-image: url("images/docker_logo.png");
+  }
+
+  #image-two {
+    background-image: url("images/nginx_logo.png");
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+  #wrapper {
+    width: 100%;
+  }
+
+  h1 {
+    width: 650px;
+    height: 100px;
+    line-height: 100px;
+    font-size: xx-large;
+  }
+
+  h2 {
+    width: 550px;
+    font-size: x-large;
+  }
+
+  p {
+    width: 500px;
+    line-height: 50px;
+    font-size: large;
+  }
+
+  footer{
+    margin: 90px auto 60px;
+  }
+
+  .image-area {
+    width: 600px;
+    margin: auto;
+  }
+
+  .image {
+    width: 90px;
+    height: 90px;
+  }
+}
